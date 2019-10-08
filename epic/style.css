@@ -1,0 +1,41 @@
+body {
+	background-color: aqua;
+}
+h3 {
+	font-size: 1.5em;
+}
+.wrap {
+	background-color: white;
+	width: 75%;
+	margin: auto;
+	text-align: center;
+}
+ul {
+	text-align: left;
+	padding-left: 35%;
+}
+ol {
+	text-align: left;
+	padding-left: 30%;
+}
+h3:hover{
+	animation-duration: 1s;
+	animation-name: grow;
+	animation-fill-mode: forwards;
+}
+h5:hover {
+	animation-duration: 1s;
+	animation-name: grow;
+	animation-fill-mode: forwards;
+}
+h5 {
+	font-size: 1.5em;
+}
+#marta {
+	text-align: left;
+}
+@keyframes grow {
+	50% {
+		transform: scale(1.5,1.5);
+	}
+}
