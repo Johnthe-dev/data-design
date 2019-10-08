@@ -1,6 +1,9 @@
 body {
 	background-color: aqua;
 }
+h1 {
+	font-size: 3em;
+}
 h3 {
 	font-size: 1.5em;
 }
@@ -21,15 +24,13 @@ ol {
 h3:hover{
 	animation-duration: 1s;
 	animation-name: grow;
-	animation-fill-mode: forwards;
+	animation-fill-mode: backwards;
 }
 h5:hover {
-	animation-duration: 1s;
-	animation-name: grow;
-	animation-fill-mode: forwards;
+	transform: scale(1.1);
 }
 h5 {
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 #marta {
 	text-align: left;
@@ -38,4 +39,9 @@ h5 {
 	50% {
 		transform: scale(1.5,1.5);
 	}
+}
+#conditions {
+	background-color: tan;
+	display: grid;
+	 grid-template-columns: 50% 50%;
 }
