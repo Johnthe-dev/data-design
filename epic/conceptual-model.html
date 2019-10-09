@@ -9,7 +9,35 @@
 	<div class="wrap">
 		<h1>Conceptual Model</h1>
 		<div id="conceptual">
+			<h3>Entities and Attributes</h3>
+			<h5>Profile (Strong)</h5>
+			<ul>
+				<li>profileId PK</li>
+				<li>profileActivationToken</li>
+				<li>profileEmail</li>
+				<li>profileUsername</li>
+			</ul>
 
+			<h5>Article (Strong)</h5>
+			<ul>
+				<li>articleId PK</li>
+				<li>articleProfileId FK</li>
+				<li>articleContent</li>
+			</ul>
+			<h5>History (Weak)</h5>
+			<ul>
+				<li>historyId PK</li>
+				<li>historyArticleId FK</li>
+				<li>historyProfileId FK</li>
+				<li>historyContent</li>
+				<li>historyDate</li>
+			</ul>
+			<h5>Relations</h5>
+			<ul>
+				<li>One Article has multiple history files. (1 to n)</li>
+				<li>One profile has many articles (1 to n)</li>
+				<li>One profile has many histories (1 to n)profile</li>
+			</ul>
 		</div>
 		<div>
 			<a href="index.php">Home</a>
