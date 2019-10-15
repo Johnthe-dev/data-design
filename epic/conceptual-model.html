@@ -21,8 +21,7 @@
 			<h5>Article (Strong)</h5>
 			<ul>
 				<li>articleId PK</li>
-				<li>articleProfileId FK</li>
-				<li>articleContent</li>
+				<li>articleInitialAuthor</li>
 			</ul>
 			<h5>History (Weak)</h5>
 			<ul>
@@ -35,7 +34,6 @@
 			<h5>Relations</h5>
 			<ul>
 				<li>One Article has multiple history files. (1 to n)</li>
-				<li>One profile has many articles (1 to n)</li>
 				<li>One profile has many histories (1 to n)</li>
 			</ul>
 		</div>
