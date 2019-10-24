@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF8">
+	<meta charset="UTF-8">
 	<title>Data Design-Wikipedia</title>
 	<link rel="stylesheet" href="style.css"/>
 </head>

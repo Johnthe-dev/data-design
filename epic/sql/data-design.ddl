@@ -1,8 +1,4 @@
-drop table if exists articleTag;
-drop table if exists article;
-drop table if exists tag;
 drop table if exists articleHistory;
-drop table if exists author;
 drop table if exists profile;
 drop table if exists article;
 
